@@ -113,7 +113,14 @@ function setLanguage(language, updateUrl = true) {
   document.getElementById('winText').textContent = t.winText;
   document.getElementById('winNote').textContent = t.winNote;
   document.getElementById('winLink').textContent = t.winLink;
-  document.querySelectorAll('[data-lang]').forEach((button) => button.classList.toggle('active', button.dataset.lang === lang));
+  document.querySelectorAll('[data-lang]').forEach((button) => {
+    const isActive = button.dataset.lang === lang;
+    button.classList.toggle('active', isActive);
+    button.setAttribute('aria-pressed', String(isActive));
+  });
+  const canonicalUrl = lang === 'de' ? 'https://www.olga-liakhova.com/' : `https://www.olga-liakhova.com/?lang=${lang}`;
+  document.querySelector('link[rel="canonical"]').href = canonicalUrl;
+  document.querySelector('meta[property="og:url"]').content = canonicalUrl;
 
   document.getElementById('serviceGrid').innerHTML = services[lang].map((service, index) => `
     <article class="card">
