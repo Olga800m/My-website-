@@ -12,7 +12,7 @@ const translations = {
     heroText:
       "Persönliches Training, Wellness und bewusste Erholung mit Europameisterschafts-Medaillengewinnerin Olga Liakhova in Köniz bei Bern.",
     book: "T~PLUS buchen",
-    stickyBook: "Personal Training buchen",
+    stickyBook: "Alle Angebote & Buchung",
     seeOffers: "Angebote & Preise",
     athleteButton: "Profi-Athletin",
     location: "Training & Recovery bei Bern",
@@ -27,7 +27,7 @@ const translations = {
     aboutTag: "Profil",
     aboutTitle: "Über mich",
     aboutText:
-      "Ich bin Olha Lyakhova, ukrainische 800-Meter-Läuferin, Europameisterschafts-Medaillengewinnerin und vierfache Teilnehmerin an Weltmeisterschaften. Heute verbinde ich meine Erfahrung aus dem Spitzensport mit persönlicher Betreuung in Köniz — vom ersten Laufziel bis zu bewusster Erholung.",
+      "Ich bin Olha Lyakhova, ukrainische Mittelstreckenläuferin, mehrfache Medaillengewinnerin bei Europameisterschaften, Team-Europameisterschaften und den Europaspielen sowie vierfache Teilnehmerin an Weltmeisterschaften. Heute verbinde ich meine Erfahrung aus dem Spitzensport mit persönlicher Betreuung in Köniz — vom ersten Laufziel bis zu bewusster Erholung.",
     europeRank: "Europa-Ranking",
     worlds: "Weltmeisterschaften",
     careerTeaser: "Profi-Athletin & Partnerschaften",
@@ -59,7 +59,7 @@ const translations = {
     heroText:
       "Personal training, wellness and intentional recovery with European Championships medalist Olga Liakhova in Köniz near Bern.",
     book: "Book T~PLUS",
-    stickyBook: "Book Personal Training",
+    stickyBook: "View services & book",
     seeOffers: "Services & prices",
     athleteButton: "Professional athlete",
     location: "Training & Recovery near Bern",
@@ -74,7 +74,7 @@ const translations = {
     aboutTag: "Profile",
     aboutTitle: "About me",
     aboutText:
-      "I am Olha Lyakhova, a Ukrainian 800m runner, European Championships medalist and four-time World Championships athlete. Today I bring elite-sport experience to personal coaching in Köniz — from a first running goal to intentional recovery.",
+      "I am Olha Lyakhova, a Ukrainian middle-distance runner and multiple medalist at the European Championships, European Team Championships and European Games, as well as a four-time World Championships athlete. Today I bring elite-sport experience to personal coaching in Köniz — from a first running goal to intentional recovery.",
     europeRank: "European ranking",
     worlds: "World Championships",
     careerTeaser: "Professional Athlete & Partnerships",
@@ -105,7 +105,7 @@ const translations = {
     heroText:
       "Персональні тренування, wellness і свідоме відновлення з призеркою чемпіонатів Європи Ольгою Ляховою в Köniz біля Bern.",
     book: "Запис на T~PLUS",
-    stickyBook: "Запис на персональне тренування",
+    stickyBook: "Послуги та запис",
     seeOffers: "Послуги та ціни",
     athleteButton: "Професійна спортсменка",
     location: "Тренування та recovery біля Bern",
@@ -120,7 +120,7 @@ const translations = {
     aboutTag: "Профіль",
     aboutTitle: "Про мене",
     aboutText:
-      "Я Ольга Ляхова — українська бігунка на 800 метрів, призерка чемпіонатів Європи та чотириразова учасниця чемпіонатів світу. Сьогодні я поєдную досвід спорту найвищого рівня з персональним супроводом у Köniz — від першої бігової цілі до свідомого відновлення.",
+      "Я Ольга Ляхова — українська бігунка на середні дистанції, багаторазова призерка чемпіонатів Європи, командних чемпіонатів Європи та Європейських ігор, а також чотириразова учасниця чемпіонатів світу. Сьогодні я поєдную досвід спорту найвищого рівня з персональним супроводом у Köniz — від першої бігової цілі до свідомого відновлення.",
     europeRank: "Рейтинг Європи",
     worlds: "Чемпіонати світу",
     careerTeaser: "Професійна спортсменка та партнерства",
