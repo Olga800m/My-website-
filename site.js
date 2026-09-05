@@ -12,7 +12,9 @@ const translations = {
     heroText:
       "Persönliches Training, Wellness und bewusste Erholung mit Europameisterschafts-Medaillengewinnerin Olga Liakhova in Köniz bei Bern.",
     book: "T~PLUS buchen",
-    stickyBook: "Alle Angebote & Buchung",
+    stickyBook: "Termin wählen",
+    bookingTitle: "Was möchten Sie buchen?",
+    closeBooking: "Buchungsauswahl schliessen",
     seeOffers: "Angebote & Preise",
     athleteButton: "Profi-Athletin",
     location: "Training & Recovery bei Bern",
@@ -59,7 +61,9 @@ const translations = {
     heroText:
       "Personal training, wellness and intentional recovery with European Championships medalist Olga Liakhova in Köniz near Bern.",
     book: "Book T~PLUS",
-    stickyBook: "View services & book",
+    stickyBook: "Choose appointment",
+    bookingTitle: "What would you like to book?",
+    closeBooking: "Close booking selection",
     seeOffers: "Services & prices",
     athleteButton: "Professional athlete",
     location: "Training & Recovery near Bern",
@@ -105,7 +109,9 @@ const translations = {
     heroText:
       "Персональні тренування, wellness і свідоме відновлення з призеркою чемпіонатів Європи Ольгою Ляховою в Köniz біля Bern.",
     book: "Запис на T~PLUS",
-    stickyBook: "Послуги та запис",
+    stickyBook: "Обрати послугу",
+    bookingTitle: "Що ви бажаєте забронювати?",
+    closeBooking: "Закрити вибір послуги",
     seeOffers: "Послуги та ціни",
     athleteButton: "Професійна спортсменка",
     location: "Тренування та recovery біля Bern",
@@ -363,6 +369,10 @@ function setLanguage(language, updateUrl = true) {
     t.book;
   document.querySelector('[data-commercial="stickyBook"]').textContent =
     t.stickyBook;
+  document.getElementById("bookingTitle").textContent = t.bookingTitle;
+  document
+    .querySelector(".booking-close")
+    .setAttribute("aria-label", t.closeBooking);
   document.querySelector('[data-commercial="athleteButton"]').textContent =
     t.athleteButton;
   document.querySelector('[data-commercial="quickLocation"]').textContent =
@@ -399,6 +409,16 @@ function setLanguage(language, updateUrl = true) {
     )
     .join("");
 
+  document.getElementById("bookingOptions").innerHTML = services[lang]
+    .map(
+      (service) => `
+      <a class="booking-option" href="${service[4]}">
+        <span><strong>${service[0]}</strong><span class="booking-option-price">${service[2].replace(/<br>/g, " · ")}</span></span>
+        <b aria-hidden="true">→</b>
+      </a>`,
+    )
+    .join("");
+
   document.getElementById("faqList").innerHTML = faqs[lang]
     .map(
       ([question, answer]) =>
@@ -421,3 +441,31 @@ document
     button.addEventListener("click", () => setLanguage(button.dataset.lang)),
   );
 setLanguage(currentLanguage(), false);
+
+const bookingButton = document.querySelector('[data-commercial="stickyBook"]');
+const bookingPicker = document.getElementById("bookingPicker");
+const bookingPanel = bookingPicker.querySelector(".booking-panel");
+const bookingClose = bookingPicker.querySelector(".booking-close");
+
+function openBookingPicker() {
+  bookingPicker.hidden = false;
+  bookingButton.setAttribute("aria-expanded", "true");
+  document.body.style.overflow = "hidden";
+  bookingClose.focus();
+}
+
+function closeBookingPicker() {
+  bookingPicker.hidden = true;
+  bookingButton.setAttribute("aria-expanded", "false");
+  document.body.style.overflow = "";
+  bookingButton.focus();
+}
+
+bookingButton.addEventListener("click", openBookingPicker);
+bookingClose.addEventListener("click", closeBookingPicker);
+bookingPicker.addEventListener("click", (event) => {
+  if (!bookingPanel.contains(event.target)) closeBookingPicker();
+});
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && !bookingPicker.hidden) closeBookingPicker();
+});
