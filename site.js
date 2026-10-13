@@ -7,20 +7,20 @@ const translations = {
     navFaq: "FAQ",
     navAbout: "Über mich",
     athleteNav: "Athletin & Partnerschaften",
-    heroTag: "Wintecare T~PLUS · Wellness · Training",
-    heroTitle: "T~PLUS<br><span>RECOVERY</span>",
+    heroTag: "Wellnessmassage · Personal Training · Recovery",
+    heroTitle: "MASSAGE &<br><span>TRAINING</span>",
     heroText:
-      "Persönliches Training, Wellness und bewusste Erholung mit Europameisterschafts-Medaillengewinnerin Olga Liakhova in Köniz bei Bern.",
-    book: "T~PLUS buchen",
+      "Wellnessmassage für Ihre Auszeit, individuelles Personal Training und nicht-medizinische Recovery-Angebote in Köniz bei Bern. Persönlich begleitet von Europameisterschafts-Medaillengewinnerin Olga Liakhova. Termine nur nach Vereinbarung.",
+    book: "Termin buchen",
     stickyBook: "Termin wählen",
     bookingTitle: "Was möchten Sie buchen?",
     closeBooking: "Buchungsauswahl schliessen",
     seeOffers: "Angebote & Preise",
     athleteButton: "Profi-Athletin",
-    location: "Training & Recovery bei Bern",
+    location: "Massage in 3097 Liebefeld · Training in Köniz",
     quick3: "Europäische Medaillen",
     quick4: "Jahre Profisport",
-    servicesTag: "Wintecare · Massage · Training",
+    servicesTag: "Massage · Training · Wintecare",
     servicesTitle: "Meine Angebote in Köniz",
     price: "Preis",
     learnMore: "Mehr erfahren",
@@ -36,9 +36,9 @@ const translations = {
     careerLink: "Profil öffnen →",
     galleryTag: "Training & Wettbewerb",
     galleryTitle: "Vom Weltfinale nach Bern",
-    contactTitle: "Termin in Köniz",
+    contactTitle: "Ihr Termin in Liebefeld bei Bern",
     contactText:
-      "Für Training und Regeneration schreiben Sie mir direkt auf Instagram.",
+      "Wellnessmassage und Recovery in 3097 Liebefeld, Training in Köniz. Die genaue Adresse wird persönlich mitgeteilt. Buchen Sie online oder schreiben Sie mir auf Instagram.",
     privacy:
       "Keine private E-Mail-Adresse oder Telefonnummer wird auf dieser Website veröffentlicht.",
     winTitle: "Technologie für Recovery",
@@ -56,20 +56,20 @@ const translations = {
     navFaq: "FAQ",
     navAbout: "About",
     athleteNav: "Athlete & Partnerships",
-    heroTag: "Wintecare T~PLUS · Wellness · Training",
-    heroTitle: "T~PLUS<br><span>RECOVERY</span>",
+    heroTag: "Wellnessmassage · Personal Training · Recovery",
+    heroTitle: "MASSAGE &<br><span>TRAINING</span>",
     heroText:
-      "Personal training, wellness and mindful recovery with European Championships medalist Olga Liakhova in Köniz near Bern.",
-    book: "Book T~PLUS",
+      "Relax with a wellness massage, build strength with personal training or discover non-medical recovery in Köniz near Bern. Individual sessions with European Championships medalist Olga Liakhova. By appointment only.",
+    book: "Book a session",
     stickyBook: "Choose appointment",
     bookingTitle: "What would you like to book?",
     closeBooking: "Close booking selection",
     seeOffers: "Services & prices",
     athleteButton: "Professional athlete",
-    location: "Training & Recovery near Bern",
+    location: "Massage in 3097 Liebefeld · Training in Köniz",
     quick3: "European medals",
     quick4: "Years in elite sport",
-    servicesTag: "Wintecare · Massage · Training",
+    servicesTag: "Massage · Training · Wintecare",
     servicesTitle: "Services in Köniz",
     price: "Price",
     learnMore: "Learn more",
@@ -85,8 +85,8 @@ const translations = {
     careerLink: "Open profile →",
     galleryTag: "Training & competition",
     galleryTitle: "From world finals to Bern",
-    contactTitle: "Book in Köniz",
-    contactText: "For training and recovery, message me directly on Instagram.",
+    contactTitle: "Book in Liebefeld near Bern",
+    contactText: "Wellness massage and recovery in 3097 Liebefeld, training in Köniz. The exact address is shared personally. Book online or message me on Instagram.",
     privacy:
       "No private email address or phone number is published on this website.",
     winTitle: "Recovery technology",
@@ -105,16 +105,16 @@ const translations = {
     navAbout: "Про мене",
     athleteNav: "Спортсменка та партнерства",
     heroTag: "Wintecare T~PLUS · Велнес · Тренування",
-    heroTitle: "T~PLUS<br><span>RECOVERY</span>",
+    heroTitle: "MASSAGE &<br><span>TRAINING</span>",
     heroText:
-      "Персональні тренування, велнес і свідоме відновлення з призеркою чемпіонатів Європи Ольгою Ляховою у Köniz поблизу Bern.",
-    book: "Запис на T~PLUS",
+      "Велнес-масаж для відпочинку, персональні тренування та немедичне відновлення у Köniz поблизу Bern. Індивідуальні заняття з призеркою чемпіонатів Європи Ольгою Ляховою. Лише за попереднім записом.",
+    book: "Записатися",
     stickyBook: "Обрати послугу",
     bookingTitle: "Що ви бажаєте забронювати?",
     closeBooking: "Закрити вибір послуги",
     seeOffers: "Послуги та ціни",
     athleteButton: "Професійна спортсменка",
-    location: "Тренування та відновлення поблизу Bern",
+    location: "Масаж у 3097 Liebefeld · тренування у Köniz",
     quick3: "Європейські медалі",
     quick4: "Років у спорті",
     servicesTag: "Wintecare · Масаж · Тренування",
@@ -133,9 +133,9 @@ const translations = {
     careerLink: "Відкрити профіль →",
     galleryTag: "Тренування та змагання",
     galleryTitle: "Від світових фіналів до Берна",
-    contactTitle: "Запис у Köniz",
+    contactTitle: "Запис у Liebefeld біля Bern",
     contactText:
-      "Для запису на тренування та відновлення напишіть мені в Instagram.",
+      "Велнес-масаж і recovery у 3097 Liebefeld, тренування у Köniz. Точну адресу повідомляю особисто. Записуйтеся онлайн або напишіть в Instagram.",
     privacy:
       "Приватна електронна адреса та номер телефону на сайті не публікуються.",
     winTitle: "Технологія для відновлення",
@@ -150,20 +150,20 @@ const translations = {
 const services = {
   de: [
     [
-      "Wintecare T~PLUS Recovery",
-      "Individuell abgestimmte, nicht-medizinische Recovery- und Wellness-Anwendung.",
-      "30 Min · CHF 65<br>60 Min · CHF 115<br>Erster Termin: 30 Min · CHF 55",
-      "T~PLUS buchen",
-      "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
-      "wintecare-tplus-koeniz.html",
-    ],
-    [
       "Wellness- & Regenerationsmassage",
       "Individuell abgestimmte Wellnessmassage für Entspannung und eine bewusste Auszeit vom Alltag.",
       "30 Min · CHF 50<br>60 Min · CHF 95<br>90 Min · CHF 140",
       "Dauer wählen & buchen",
       "https://cal.com/olga-liakhova-nvavii/wellnessmassage-koeniz",
       "massage-koeniz.html",
+    ],
+    [
+      "Wintecare T~PLUS Recovery",
+      "Individuell abgestimmte, nicht-medizinische Recovery- und Wellness-Anwendung.",
+      "30 Min · CHF 65<br>60 Min · CHF 115<br>Erster Termin: 30 Min · CHF 55",
+      "T~PLUS buchen",
+      "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
+      "wintecare-tplus-koeniz.html",
     ],
     [
       "Personal Training & Lauftraining",
@@ -175,7 +175,7 @@ const services = {
     ],
     [
       "Gruppentraining in Köniz",
-      "Funktionelle Kraftübungen, Lauftechnik, Mobilität und Ausdauer mit unterschiedlichen Schwierigkeitsstufen. Maximal 12 Plätze. Die Einheit findet ab vier Anmeldungen statt und wird spätestens 12 Stunden vor Beginn bestätigt.",
+      "Funktionelle Kraftübungen, Lauftechnik, Mobilität und Ausdauer mit unterschiedlichen Schwierigkeitsstufen. Maximal 4 Plätze. Die Einheit findet ab vier Anmeldungen statt und wird spätestens 12 Stunden vor Beginn bestätigt.",
       "60 Min · CHF 20 pro Person",
       "Platz anfragen",
       "https://cal.com/olga-liakhova-nvavii/gruppentraining-koeniz",
@@ -184,20 +184,20 @@ const services = {
   ],
   en: [
     [
-      "Wintecare T~PLUS Recovery",
-      "An individually tailored, non-medical recovery and wellness session.",
-      "30 min · CHF 65<br>60 min · CHF 115<br>First visit: 30 min · CHF 55",
-      "Book T~PLUS",
-      "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
-      "wintecare-tplus-koeniz.html",
-    ],
-    [
       "Wellness & Recovery Massage",
       "An individually adapted wellness massage for relaxation and an intentional break from everyday life.",
       "30 min · CHF 50<br>60 min · CHF 95<br>90 min · CHF 140",
       "Choose & book",
       "https://cal.com/olga-liakhova-nvavii/wellnessmassage-koeniz",
       "massage-koeniz.html",
+    ],
+    [
+      "Wintecare T~PLUS Recovery",
+      "An individually tailored, non-medical recovery and wellness session.",
+      "30 min · CHF 65<br>60 min · CHF 115<br>First visit: 30 min · CHF 55",
+      "Book T~PLUS",
+      "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
+      "wintecare-tplus-koeniz.html",
     ],
     [
       "Personal Training & Running Coaching",
@@ -209,7 +209,7 @@ const services = {
     ],
     [
       "Group Training in Köniz",
-      "Functional strength, running technique, mobility and endurance with exercises adapted to different fitness levels. Maximum 12 places. Sessions take place with at least four participants and are confirmed no later than 12 hours before the start.",
+      "Functional strength, running technique, mobility and endurance with exercises adapted to different fitness levels. Maximum 4 places. Sessions take place with at least four participants and are confirmed no later than 12 hours before the start.",
       "60 min · CHF 20 per person",
       "Request a place",
       "https://cal.com/olga-liakhova-nvavii/gruppentraining-koeniz",
@@ -218,20 +218,20 @@ const services = {
   ],
   uk: [
     [
-      "Wintecare T~PLUS Recovery",
-      "Індивідуально підібрана немедична процедура для відпочинку та відновлення.",
-      "30 хв · CHF 65<br>60 хв · CHF 115<br>Перший візит: 30 хв · CHF 55",
-      "Запис на T~PLUS",
-      "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
-      "wintecare-tplus-koeniz.html",
-    ],
-    [
       "Велнес- і відновлювальний масаж",
       "Індивідуально підібраний велнес-масаж для розслаблення та повноцінної паузи від повсякденних справ.",
       "30 хв · CHF 50<br>60 хв · CHF 95<br>90 хв · CHF 140",
       "Обрати й записатися",
       "https://cal.com/olga-liakhova-nvavii/wellnessmassage-koeniz",
       "massage-koeniz.html",
+    ],
+    [
+      "Wintecare T~PLUS Recovery",
+      "Індивідуально підібрана немедична процедура для відпочинку та відновлення.",
+      "30 хв · CHF 65<br>60 хв · CHF 115<br>Перший візит: 30 хв · CHF 55",
+      "Запис на T~PLUS",
+      "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
+      "wintecare-tplus-koeniz.html",
     ],
     [
       "Персональні та бігові тренування",
@@ -243,7 +243,7 @@ const services = {
     ],
     [
       "Групові тренування в Köniz",
-      "Функціональні силові вправи, техніка бігу, мобільність і витривалість з адаптацією до різних рівнів підготовки. Максимум 12 місць. Заняття проводиться за наявності щонайменше чотирьох учасників і підтверджується не пізніше ніж за 12 годин до початку.",
+      "Функціональні силові вправи, техніка бігу, мобільність і витривалість з адаптацією до різних рівнів підготовки. Максимум 4 місця. Заняття проводиться за наявності щонайменше чотирьох учасників і підтверджується не пізніше ніж за 12 годин до початку.",
       "60 хв · CHF 20 з особи",
       "Забронювати місце",
       "https://cal.com/olga-liakhova-nvavii/gruppentraining-koeniz",
@@ -260,7 +260,7 @@ const faqs = {
     ],
     [
       "Muss ich für das Gruppentraining bereits fit sein?",
-      "Nein. Übungen und Intensität lassen sich an unterschiedliche Fitnesslevel anpassen. Die Gruppe ist auf maximal 12 Personen begrenzt.",
+      "Nein. Übungen und Intensität lassen sich an unterschiedliche Fitnesslevel anpassen. Die Gruppe ist auf maximal 4 Personen begrenzt.",
     ],
     [
       "Bieten Sie Lauftraining für Einsteiger an?",
@@ -272,7 +272,7 @@ const faqs = {
     ],
     [
       "Wo finden die Termine statt?",
-      "Das Training findet im Freien in Köniz statt, zum Beispiel im Stadion oder in einem Park. Wellness- und Recovery-Termine finden ebenfalls in Köniz statt; die genaue private Adresse wird nach bestätigter Buchung mitgeteilt. Hausbesuche werden nicht angeboten.",
+      "Training findet im Freien in Köniz statt, beispielsweise im Stadion oder Park. Wellnessmassage und Recovery finden im Raum 3097 Liebefeld bei Bern statt. Die genaue Adresse wird persönlich mitgeteilt. Keine Hausbesuche.",
     ],
     [
       "In welchen Sprachen werde ich betreut?",
@@ -290,7 +290,7 @@ const faqs = {
     ],
     [
       "Do I need to be fit for group training?",
-      "No. Exercises and intensity can be adapted to different fitness levels. The group is limited to a maximum of 12 people.",
+      "No. Exercises and intensity can be adapted to different fitness levels. The group is limited to a maximum of 4 people.",
     ],
     [
       "Do you offer running coaching for beginners?",
@@ -302,7 +302,7 @@ const faqs = {
     ],
     [
       "Where do appointments take place?",
-      "Training takes place outdoors in Köniz, for example at the stadium or in a park. Wellness and recovery appointments also take place in Köniz; the exact private address is shared after booking confirmation. No home visits.",
+      "Training takes place outdoors in Köniz, for example at a stadium or park. Wellness massage and recovery take place in the 3097 Liebefeld area near Bern. The exact address is shared personally. No home visits.",
     ],
     ["Which languages are available?", "German, English and Ukrainian."],
     [
@@ -317,7 +317,7 @@ const faqs = {
     ],
     [
       "Чи потрібна фізична підготовка для групового заняття?",
-      "Ні. Вправи та інтенсивність адаптуються до різних рівнів підготовки. У групі максимум 12 осіб.",
+      "Ні. Вправи та інтенсивність адаптуються до різних рівнів підготовки. У групі максимум 4 особи.",
     ],
     [
       "Чи є бігові тренування для початківців?",
@@ -329,7 +329,7 @@ const faqs = {
     ],
     [
       "Де проходять заняття та процедури?",
-      "Тренування проходять просто неба в Köniz, наприклад на стадіоні або в парку. Велнес- і відновлювальні процедури також проводяться в Köniz; точна приватна адреса повідомляється після підтвердження запису. Виїзні послуги вдома не надаються.",
+      "Тренування проходять просто неба у Köniz, наприклад на стадіоні чи в парку. Велнес-масаж і recovery — у районі 3097 Liebefeld поблизу Bern. Точну адресу повідомляю особисто. Виїздів додому немає.",
     ],
     [
       "Якими мовами проходить супровід?",
