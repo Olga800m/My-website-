@@ -10,7 +10,7 @@ const translations = {
     heroTag: "Wellnessmassage · Personal Training · Recovery",
     heroTitle: "MASSAGE &<br><span>TRAINING</span>",
     heroText:
-      "Wellnessmassage für Ihre Auszeit, individuelles Personal Training und nicht-medizinische Recovery-Angebote in Köniz bei Bern. Persönlich begleitet von Europameisterschafts-Medaillengewinnerin Olga Liakhova. Termine nur nach Vereinbarung.",
+      "Wellnessmassage in 3097 Liebefeld bei Bern ab CHF 50. Personal Training in Köniz und individuelle, nicht-medizinische Recovery-Angebote mit EM-Medaillengewinnerin Olga Liakhova. Termine nach Vereinbarung.",
     book: "Termin buchen",
     stickyBook: "Termin wählen",
     bookingTitle: "Was möchten Sie buchen?",
@@ -21,7 +21,7 @@ const translations = {
     quick3: "Europäische Medaillen",
     quick4: "Jahre Profisport",
     servicesTag: "Massage · Training · Wintecare",
-    servicesTitle: "Meine Angebote in Köniz",
+    servicesTitle: "Massage, Training & Recovery in Bern/Köniz",
     price: "Preis",
     learnMore: "Mehr erfahren",
     faqTag: "Häufige Fragen",
@@ -59,7 +59,7 @@ const translations = {
     heroTag: "Wellnessmassage · Personal Training · Recovery",
     heroTitle: "MASSAGE &<br><span>TRAINING</span>",
     heroText:
-      "Relax with a wellness massage, build strength with personal training or discover non-medical recovery in Köniz near Bern. Individual sessions with European Championships medalist Olga Liakhova. By appointment only.",
+      "Wellness massage in 3097 Liebefeld near Bern from CHF 50. Personal training in Köniz and non-medical recovery sessions with European Championships medalist Olga Liakhova. By appointment only.",
     book: "Book a session",
     stickyBook: "Choose appointment",
     bookingTitle: "What would you like to book?",
@@ -70,7 +70,7 @@ const translations = {
     quick3: "European medals",
     quick4: "Years in elite sport",
     servicesTag: "Massage · Training · Wintecare",
-    servicesTitle: "Services in Köniz",
+    servicesTitle: "Massage, Training & Recovery in Bern/Köniz",
     price: "Price",
     learnMore: "Learn more",
     faqTag: "Frequently asked questions",
@@ -107,7 +107,7 @@ const translations = {
     heroTag: "Wintecare T~PLUS · Велнес · Тренування",
     heroTitle: "MASSAGE &<br><span>TRAINING</span>",
     heroText:
-      "Велнес-масаж для відпочинку, персональні тренування та немедичне відновлення у Köniz поблизу Bern. Індивідуальні заняття з призеркою чемпіонатів Європи Ольгою Ляховою. Лише за попереднім записом.",
+      "Велнес-масаж у 3097 Liebefeld біля Берна від CHF 50. Персональні тренування у Köniz та немедичне відновлення з призеркою чемпіонатів Європи Ольгою Ляховою. За попереднім записом.",
     book: "Записатися",
     stickyBook: "Обрати послугу",
     bookingTitle: "Що ви бажаєте забронювати?",
@@ -118,7 +118,7 @@ const translations = {
     quick3: "Європейські медалі",
     quick4: "Років у спорті",
     servicesTag: "Wintecare · Масаж · Тренування",
-    servicesTitle: "Послуги в Köniz",
+    servicesTitle: "Масаж, тренування та відновлення в Bern/Köniz",
     price: "Ціна",
     learnMore: "Детальніше",
     faqTag: "Часті запитання",
@@ -151,7 +151,7 @@ const services = {
   de: [
     [
       "Wellness- & Regenerationsmassage",
-      "Individuell abgestimmte Wellnessmassage für Entspannung und eine bewusste Auszeit vom Alltag.",
+      "Individuell abgestimmte Wellnessmassage für Entspannung und eine bewusste Auszeit vom Alltag. Standort: 3097 Liebefeld bei Bern. Die genaue Adresse wird persönlich mitgeteilt.",
       "30 Min · CHF 50<br>60 Min · CHF 95<br>90 Min · CHF 140",
       "Dauer wählen & buchen",
       "https://cal.com/olga-liakhova-nvavii/wellnessmassage-koeniz",
@@ -185,7 +185,7 @@ const services = {
   en: [
     [
       "Wellness & Recovery Massage",
-      "An individually adapted wellness massage for relaxation and an intentional break from everyday life.",
+      "An individually adapted wellness massage for relaxation. Location: 3097 Liebefeld near Bern. The exact address is shared personally.",
       "30 min · CHF 50<br>60 min · CHF 95<br>90 min · CHF 140",
       "Choose & book",
       "https://cal.com/olga-liakhova-nvavii/wellnessmassage-koeniz",
