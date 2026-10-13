@@ -17,7 +17,7 @@ const translations = {
     closeBooking: "Buchungsauswahl schliessen",
     seeOffers: "Angebote & Preise",
     athleteButton: "Profi-Athletin",
-    location: "Training & Recovery bei Bern",
+    location: "Massage in 3097 Liebefeld · Training in Köniz",
     quick3: "Europäische Medaillen",
     quick4: "Jahre Profisport",
     servicesTag: "Massage · Training · Wintecare",
@@ -36,9 +36,9 @@ const translations = {
     careerLink: "Profil öffnen →",
     galleryTag: "Training & Wettbewerb",
     galleryTitle: "Vom Weltfinale nach Bern",
-    contactTitle: "Termin in Köniz",
+    contactTitle: "Ihr Termin in Liebefeld bei Bern",
     contactText:
-      "Für Training und Regeneration schreiben Sie mir direkt auf Instagram.",
+      "Wellnessmassage und Recovery in 3097 Liebefeld, Training in Köniz. Die genaue Adresse wird persönlich mitgeteilt. Buchen Sie online oder schreiben Sie mir auf Instagram.",
     privacy:
       "Keine private E-Mail-Adresse oder Telefonnummer wird auf dieser Website veröffentlicht.",
     winTitle: "Technologie für Recovery",
@@ -66,7 +66,7 @@ const translations = {
     closeBooking: "Close booking selection",
     seeOffers: "Services & prices",
     athleteButton: "Professional athlete",
-    location: "Training & Recovery near Bern",
+    location: "Massage in 3097 Liebefeld · Training in Köniz",
     quick3: "European medals",
     quick4: "Years in elite sport",
     servicesTag: "Massage · Training · Wintecare",
@@ -85,8 +85,8 @@ const translations = {
     careerLink: "Open profile →",
     galleryTag: "Training & competition",
     galleryTitle: "From world finals to Bern",
-    contactTitle: "Book in Köniz",
-    contactText: "For training and recovery, message me directly on Instagram.",
+    contactTitle: "Book in Liebefeld near Bern",
+    contactText: "Wellness massage and recovery in 3097 Liebefeld, training in Köniz. The exact address is shared personally. Book online or message me on Instagram.",
     privacy:
       "No private email address or phone number is published on this website.",
     winTitle: "Recovery technology",
@@ -114,7 +114,7 @@ const translations = {
     closeBooking: "Закрити вибір послуги",
     seeOffers: "Послуги та ціни",
     athleteButton: "Професійна спортсменка",
-    location: "Тренування та відновлення поблизу Bern",
+    location: "Масаж у 3097 Liebefeld · тренування у Köniz",
     quick3: "Європейські медалі",
     quick4: "Років у спорті",
     servicesTag: "Wintecare · Масаж · Тренування",
@@ -133,9 +133,9 @@ const translations = {
     careerLink: "Відкрити профіль →",
     galleryTag: "Тренування та змагання",
     galleryTitle: "Від світових фіналів до Берна",
-    contactTitle: "Запис у Köniz",
+    contactTitle: "Запис у Liebefeld біля Bern",
     contactText:
-      "Для запису на тренування та відновлення напишіть мені в Instagram.",
+      "Велнес-масаж і recovery у 3097 Liebefeld, тренування у Köniz. Точну адресу повідомляю особисто. Записуйтеся онлайн або напишіть в Instagram.",
     privacy:
       "Приватна електронна адреса та номер телефону на сайті не публікуються.",
     winTitle: "Технологія для відновлення",
@@ -272,7 +272,7 @@ const faqs = {
     ],
     [
       "Wo finden die Termine statt?",
-      "Das Training findet im Freien in Köniz statt, zum Beispiel im Stadion oder in einem Park. Wellness- und Recovery-Termine finden ebenfalls in Köniz statt; die genaue private Adresse wird nach bestätigter Buchung mitgeteilt. Hausbesuche werden nicht angeboten.",
+      "Training findet im Freien in Köniz statt, beispielsweise im Stadion oder Park. Wellnessmassage und Recovery finden im Raum 3097 Liebefeld bei Bern statt. Die genaue Adresse wird persönlich mitgeteilt. Keine Hausbesuche.",
     ],
     [
       "In welchen Sprachen werde ich betreut?",
@@ -302,7 +302,7 @@ const faqs = {
     ],
     [
       "Where do appointments take place?",
-      "Training takes place outdoors in Köniz, for example at the stadium or in a park. Wellness and recovery appointments also take place in Köniz; the exact private address is shared after booking confirmation. No home visits.",
+      "Training takes place outdoors in Köniz, for example at a stadium or park. Wellness massage and recovery take place in the 3097 Liebefeld area near Bern. The exact address is shared personally. No home visits.",
     ],
     ["Which languages are available?", "German, English and Ukrainian."],
     [
@@ -329,7 +329,7 @@ const faqs = {
     ],
     [
       "Де проходять заняття та процедури?",
-      "Тренування проходять просто неба в Köniz, наприклад на стадіоні або в парку. Велнес- і відновлювальні процедури також проводяться в Köniz; точна приватна адреса повідомляється після підтвердження запису. Виїзні послуги вдома не надаються.",
+      "Тренування проходять просто неба у Köniz, наприклад на стадіоні чи в парку. Велнес-масаж і recovery — у районі 3097 Liebefeld поблизу Bern. Точну адресу повідомляю особисто. Виїздів додому немає.",
     ],
     [
       "Якими мовами проходить супровід?",
