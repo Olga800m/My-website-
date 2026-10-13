@@ -7,11 +7,11 @@ const translations = {
     navFaq: "FAQ",
     navAbout: "Über mich",
     athleteNav: "Athletin & Partnerschaften",
-    heroTag: "Wintecare T~PLUS · Wellness · Training",
-    heroTitle: "T~PLUS<br><span>RECOVERY</span>",
+    heroTag: "Wellnessmassage · Personal Training · Recovery",
+    heroTitle: "MASSAGE &<br><span>TRAINING</span>",
     heroText:
-      "Persönliches Training, Wellness und bewusste Erholung mit Europameisterschafts-Medaillengewinnerin Olga Liakhova in Köniz bei Bern.",
-    book: "T~PLUS buchen",
+      "Wellnessmassage für Ihre Auszeit, individuelles Personal Training und nicht-medizinische Recovery-Angebote in Köniz bei Bern. Persönlich begleitet von Europameisterschafts-Medaillengewinnerin Olga Liakhova. Termine nur nach Vereinbarung.",
+    book: "Termin buchen",
     stickyBook: "Termin wählen",
     bookingTitle: "Was möchten Sie buchen?",
     closeBooking: "Buchungsauswahl schliessen",
@@ -20,7 +20,7 @@ const translations = {
     location: "Training & Recovery bei Bern",
     quick3: "Europäische Medaillen",
     quick4: "Jahre Profisport",
-    servicesTag: "Wintecare · Massage · Training",
+    servicesTag: "Massage · Training · Wintecare",
     servicesTitle: "Meine Angebote in Köniz",
     price: "Preis",
     learnMore: "Mehr erfahren",
@@ -56,11 +56,11 @@ const translations = {
     navFaq: "FAQ",
     navAbout: "About",
     athleteNav: "Athlete & Partnerships",
-    heroTag: "Wintecare T~PLUS · Wellness · Training",
-    heroTitle: "T~PLUS<br><span>RECOVERY</span>",
+    heroTag: "Wellnessmassage · Personal Training · Recovery",
+    heroTitle: "MASSAGE &<br><span>TRAINING</span>",
     heroText:
-      "Personal training, wellness and mindful recovery with European Championships medalist Olga Liakhova in Köniz near Bern.",
-    book: "Book T~PLUS",
+      "Relax with a wellness massage, build strength with personal training or discover non-medical recovery in Köniz near Bern. Individual sessions with European Championships medalist Olga Liakhova. By appointment only.",
+    book: "Book a session",
     stickyBook: "Choose appointment",
     bookingTitle: "What would you like to book?",
     closeBooking: "Close booking selection",
@@ -69,7 +69,7 @@ const translations = {
     location: "Training & Recovery near Bern",
     quick3: "European medals",
     quick4: "Years in elite sport",
-    servicesTag: "Wintecare · Massage · Training",
+    servicesTag: "Massage · Training · Wintecare",
     servicesTitle: "Services in Köniz",
     price: "Price",
     learnMore: "Learn more",
@@ -105,10 +105,10 @@ const translations = {
     navAbout: "Про мене",
     athleteNav: "Спортсменка та партнерства",
     heroTag: "Wintecare T~PLUS · Велнес · Тренування",
-    heroTitle: "T~PLUS<br><span>RECOVERY</span>",
+    heroTitle: "MASSAGE &<br><span>TRAINING</span>",
     heroText:
-      "Персональні тренування, велнес і свідоме відновлення з призеркою чемпіонатів Європи Ольгою Ляховою у Köniz поблизу Bern.",
-    book: "Запис на T~PLUS",
+      "Велнес-масаж для відпочинку, персональні тренування та немедичне відновлення у Köniz поблизу Bern. Індивідуальні заняття з призеркою чемпіонатів Європи Ольгою Ляховою. Лише за попереднім записом.",
+    book: "Записатися",
     stickyBook: "Обрати послугу",
     bookingTitle: "Що ви бажаєте забронювати?",
     closeBooking: "Закрити вибір послуги",
@@ -150,20 +150,20 @@ const translations = {
 const services = {
   de: [
     [
-      "Wintecare T~PLUS Recovery",
-      "Individuell abgestimmte, nicht-medizinische Recovery- und Wellness-Anwendung.",
-      "30 Min · CHF 65<br>60 Min · CHF 115<br>Erster Termin: 30 Min · CHF 55",
-      "T~PLUS buchen",
-      "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
-      "wintecare-tplus-koeniz.html",
-    ],
-    [
       "Wellness- & Regenerationsmassage",
       "Individuell abgestimmte Wellnessmassage für Entspannung und eine bewusste Auszeit vom Alltag.",
       "30 Min · CHF 50<br>60 Min · CHF 95<br>90 Min · CHF 140",
       "Dauer wählen & buchen",
       "https://cal.com/olga-liakhova-nvavii/wellnessmassage-koeniz",
       "massage-koeniz.html",
+    ],
+    [
+      "Wintecare T~PLUS Recovery",
+      "Individuell abgestimmte, nicht-medizinische Recovery- und Wellness-Anwendung.",
+      "30 Min · CHF 65<br>60 Min · CHF 115<br>Erster Termin: 30 Min · CHF 55",
+      "T~PLUS buchen",
+      "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
+      "wintecare-tplus-koeniz.html",
     ],
     [
       "Personal Training & Lauftraining",
@@ -175,7 +175,7 @@ const services = {
     ],
     [
       "Gruppentraining in Köniz",
-      "Funktionelle Kraftübungen, Lauftechnik, Mobilität und Ausdauer mit unterschiedlichen Schwierigkeitsstufen. Maximal 12 Plätze. Die Einheit findet ab vier Anmeldungen statt und wird spätestens 12 Stunden vor Beginn bestätigt.",
+      "Funktionelle Kraftübungen, Lauftechnik, Mobilität und Ausdauer mit unterschiedlichen Schwierigkeitsstufen. Maximal 4 Plätze. Die Einheit findet ab vier Anmeldungen statt und wird spätestens 12 Stunden vor Beginn bestätigt.",
       "60 Min · CHF 20 pro Person",
       "Platz anfragen",
       "https://cal.com/olga-liakhova-nvavii/gruppentraining-koeniz",
@@ -184,20 +184,20 @@ const services = {
   ],
   en: [
     [
-      "Wintecare T~PLUS Recovery",
-      "An individually tailored, non-medical recovery and wellness session.",
-      "30 min · CHF 65<br>60 min · CHF 115<br>First visit: 30 min · CHF 55",
-      "Book T~PLUS",
-      "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
-      "wintecare-tplus-koeniz.html",
-    ],
-    [
       "Wellness & Recovery Massage",
       "An individually adapted wellness massage for relaxation and an intentional break from everyday life.",
       "30 min · CHF 50<br>60 min · CHF 95<br>90 min · CHF 140",
       "Choose & book",
       "https://cal.com/olga-liakhova-nvavii/wellnessmassage-koeniz",
       "massage-koeniz.html",
+    ],
+    [
+      "Wintecare T~PLUS Recovery",
+      "An individually tailored, non-medical recovery and wellness session.",
+      "30 min · CHF 65<br>60 min · CHF 115<br>First visit: 30 min · CHF 55",
+      "Book T~PLUS",
+      "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
+      "wintecare-tplus-koeniz.html",
     ],
     [
       "Personal Training & Running Coaching",
@@ -209,7 +209,7 @@ const services = {
     ],
     [
       "Group Training in Köniz",
-      "Functional strength, running technique, mobility and endurance with exercises adapted to different fitness levels. Maximum 12 places. Sessions take place with at least four participants and are confirmed no later than 12 hours before the start.",
+      "Functional strength, running technique, mobility and endurance with exercises adapted to different fitness levels. Maximum 4 places. Sessions take place with at least four participants and are confirmed no later than 12 hours before the start.",
       "60 min · CHF 20 per person",
       "Request a place",
       "https://cal.com/olga-liakhova-nvavii/gruppentraining-koeniz",
@@ -218,20 +218,20 @@ const services = {
   ],
   uk: [
     [
-      "Wintecare T~PLUS Recovery",
-      "Індивідуально підібрана немедична процедура для відпочинку та відновлення.",
-      "30 хв · CHF 65<br>60 хв · CHF 115<br>Перший візит: 30 хв · CHF 55",
-      "Запис на T~PLUS",
-      "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
-      "wintecare-tplus-koeniz.html",
-    ],
-    [
       "Велнес- і відновлювальний масаж",
       "Індивідуально підібраний велнес-масаж для розслаблення та повноцінної паузи від повсякденних справ.",
       "30 хв · CHF 50<br>60 хв · CHF 95<br>90 хв · CHF 140",
       "Обрати й записатися",
       "https://cal.com/olga-liakhova-nvavii/wellnessmassage-koeniz",
       "massage-koeniz.html",
+    ],
+    [
+      "Wintecare T~PLUS Recovery",
+      "Індивідуально підібрана немедична процедура для відпочинку та відновлення.",
+      "30 хв · CHF 65<br>60 хв · CHF 115<br>Перший візит: 30 хв · CHF 55",
+      "Запис на T~PLUS",
+      "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
+      "wintecare-tplus-koeniz.html",
     ],
     [
       "Персональні та бігові тренування",
@@ -243,7 +243,7 @@ const services = {
     ],
     [
       "Групові тренування в Köniz",
-      "Функціональні силові вправи, техніка бігу, мобільність і витривалість з адаптацією до різних рівнів підготовки. Максимум 12 місць. Заняття проводиться за наявності щонайменше чотирьох учасників і підтверджується не пізніше ніж за 12 годин до початку.",
+      "Функціональні силові вправи, техніка бігу, мобільність і витривалість з адаптацією до різних рівнів підготовки. Максимум 4 місця. Заняття проводиться за наявності щонайменше чотирьох учасників і підтверджується не пізніше ніж за 12 годин до початку.",
       "60 хв · CHF 20 з особи",
       "Забронювати місце",
       "https://cal.com/olga-liakhova-nvavii/gruppentraining-koeniz",
@@ -260,7 +260,7 @@ const faqs = {
     ],
     [
       "Muss ich für das Gruppentraining bereits fit sein?",
-      "Nein. Übungen und Intensität lassen sich an unterschiedliche Fitnesslevel anpassen. Die Gruppe ist auf maximal 12 Personen begrenzt.",
+      "Nein. Übungen und Intensität lassen sich an unterschiedliche Fitnesslevel anpassen. Die Gruppe ist auf maximal 4 Personen begrenzt.",
     ],
     [
       "Bieten Sie Lauftraining für Einsteiger an?",
@@ -290,7 +290,7 @@ const faqs = {
     ],
     [
       "Do I need to be fit for group training?",
-      "No. Exercises and intensity can be adapted to different fitness levels. The group is limited to a maximum of 12 people.",
+      "No. Exercises and intensity can be adapted to different fitness levels. The group is limited to a maximum of 4 people.",
     ],
     [
       "Do you offer running coaching for beginners?",
@@ -317,7 +317,7 @@ const faqs = {
     ],
     [
       "Чи потрібна фізична підготовка для групового заняття?",
-      "Ні. Вправи та інтенсивність адаптуються до різних рівнів підготовки. У групі максимум 12 осіб.",
+      "Ні. Вправи та інтенсивність адаптуються до різних рівнів підготовки. У групі максимум 4 особи.",
     ],
     [
       "Чи є бігові тренування для початківців?",
