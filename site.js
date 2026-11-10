@@ -9,8 +9,9 @@ const translations = {
     athleteNav: "Athletin & Partnerschaften",
     heroTag: "Wellnessmassage · Personal Training · Recovery",
     heroTitle: "MASSAGE &<br><span>TRAINING</span>",
+    heroCredentials: "Olympiateilnehmerin · WM-Finalistin · Mehrfache EM-Medaillengewinnerin",
     heroText:
-      "Wellnessmassage in 3097 Liebefeld bei Bern ab CHF 50. Personal Training in Köniz und individuelle, nicht-medizinische Recovery-Angebote mit EM-Medaillengewinnerin Olga Liakhova. Termine nach Vereinbarung.",
+      "Wellnessmassage in 3097 Liebefeld bei Bern ab CHF 50. Personal Training in Köniz und individuelle, nicht-medizinische Recovery-Angebote mit Olympiateilnehmerin, WM-Finalistin und mehrfacher EM-Medaillengewinnerin Olga Liakhova. Termine nach Vereinbarung.",
     book: "Willkommensangebote ansehen",
     offerBadge: "WILLKOMMENSANGEBOT · NUR FÜR NEUKUNDEN",
     offerHeading: "Ihr erster Termin zum Kennenlernpreis",
@@ -38,7 +39,7 @@ const translations = {
     aboutTag: "Profil",
     aboutTitle: "Über mich",
     aboutText:
-      "Ich bin Olha Lyakhova, ukrainische Mittelstreckenläuferin, mehrfache Medaillengewinnerin bei Europameisterschaften, Team-Europameisterschaften und den Europaspielen sowie vierfache Teilnehmerin an Weltmeisterschaften. Heute verbinde ich meine Erfahrung aus dem Spitzensport mit persönlicher Betreuung in Köniz — vom ersten Laufziel bis zu bewusster Erholung.",
+      "Ich bin Olha Lyakhova, ukrainische Mittelstreckenläuferin, Olympiateilnehmerin, WM-Finalistin und mehrfache Medaillengewinnerin bei Europameisterschaften, Team-Europameisterschaften und den Europaspielen sowie vierfache Teilnehmerin an Weltmeisterschaften. Heute verbinde ich meine Erfahrung aus dem Spitzensport mit persönlicher Betreuung in Köniz — vom ersten Laufziel bis zu bewusster Erholung.",
     europeRank: "Europa-Ranking",
     worlds: "Weltmeisterschaften",
     careerTeaser: "Profi-Athletin & Partnerschaften",
@@ -67,8 +68,9 @@ const translations = {
     athleteNav: "Athlete & Partnerships",
     heroTag: "Wellnessmassage · Personal Training · Recovery",
     heroTitle: "MASSAGE &<br><span>TRAINING</span>",
+    heroCredentials: "Olympian · World Championships Finalist · Multiple European Championships Medalist",
     heroText:
-      "Wellness massage in 3097 Liebefeld near Bern from CHF 50. Personal training in Köniz and non-medical recovery sessions with European Championships medalist Olga Liakhova. By appointment only.",
+      "Wellness massage in 3097 Liebefeld near Bern from CHF 50. Personal training in Köniz and non-medical recovery sessions with Olympian, World Championships finalist and multiple European Championships medalist Olga Liakhova. By appointment only.",
     book: "See new-client offers",
     offerBadge: "NEW-CLIENT INTRODUCTORY OFFERS",
     offerHeading: "Your first session at an introductory price",
@@ -96,7 +98,7 @@ const translations = {
     aboutTag: "Profile",
     aboutTitle: "About me",
     aboutText:
-      "I am Olha Lyakhova, a Ukrainian middle-distance runner, multiple medal winner at the European Championships, European Team Championships and European Games, and a four-time World Championships competitor. Today I bring my elite-sport experience to personal coaching in Köniz — from a first running goal to mindful recovery.",
+      "I am Olha Lyakhova, a Ukrainian middle-distance runner, Olympian, World Championships finalist and multiple medal winner at the European Championships, European Team Championships and European Games, and a four-time World Championships competitor. Today I bring my elite-sport experience to personal coaching in Köniz — from a first running goal to mindful recovery.",
     europeRank: "European ranking",
     worlds: "World Championships",
     careerTeaser: "Professional Athlete & Partnerships",
@@ -124,8 +126,9 @@ const translations = {
     athleteNav: "Спортсменка та партнерства",
     heroTag: "Wintecare T~PLUS · Велнес · Тренування",
     heroTitle: "MASSAGE &<br><span>TRAINING</span>",
+    heroCredentials: "Учасниця Олімпійських ігор · Фіналістка чемпіонатів світу · Багаторазова призерка чемпіонатів Європи",
     heroText:
-      "Велнес-масаж у 3097 Liebefeld біля Берна від CHF 50. Персональні тренування у Köniz та немедичне відновлення з призеркою чемпіонатів Європи Ольгою Ляховою. За попереднім записом.",
+      "Велнес-масаж у 3097 Liebefeld біля Берна від CHF 50. Персональні тренування у Köniz та немедичне відновлення з учасницею Олімпійських ігор, фіналісткою чемпіонатів світу та багаторазовою призеркою чемпіонатів Європи Ольгою Ляховою. За попереднім записом.",
     book: "Пропозиції для нових клієнтів",
     offerBadge: "ПРОПОЗИЦІЇ ДЛЯ НОВИХ КЛІЄНТІВ",
     offerHeading: "Перше заняття за ознайомчою ціною",
@@ -153,7 +156,7 @@ const translations = {
     aboutTag: "Профіль",
     aboutTitle: "Про мене",
     aboutText:
-      "Я Ольга Ляхова — українська бігунка на середні дистанції, багаторазова призерка чемпіонатів Європи, командних чемпіонатів Європи та Європейських ігор, а також чотириразова учасниця чемпіонатів світу. Сьогодні я поєдную досвід спорту найвищого рівня з персональним супроводом у Köniz — від першої бігової цілі до свідомого відновлення.",
+      "Я Ольга Ляхова — українська бігунка на середні дистанції, учасниця Олімпійських ігор, фіналістка чемпіонатів світу та багаторазова призерка чемпіонатів Європи, командних чемпіонатів Європи та Європейських ігор, а також чотириразова учасниця чемпіонатів світу. Сьогодні я поєдную досвід спорту найвищого рівня з персональним супроводом у Köniz — від першої бігової цілі до свідомого відновлення.",
     europeRank: "Рейтинг Європи",
     worlds: "Чемпіонати світу",
     careerTeaser: "Професійна спортсменка та партнерства",
