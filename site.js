@@ -7,11 +7,11 @@ const translations = {
     navFaq: "FAQ",
     navAbout: "Über mich",
     athleteNav: "Athletin & Partnerschaften",
-    heroTag: "Wellnessmassage · Personal Training · Recovery",
-    heroTitle: "MASSAGE &<br><span>TRAINING</span>",
+    heroTag: "Personal Training · Laufen · Wellness",
+    heroTitle: "RUNNING &<br><span>PERSONAL TRAINING</span>",
     heroCredentials: "Olympiateilnehmerin · WM-Finalistin · 2× Gold bei den Europaspielen · Mehrfache EM-Medaillengewinnerin",
     heroText:
-      "Wellnessmassage in 3097 Liebefeld bei Bern ab CHF 50. Personal Training in Köniz und individuelle, nicht-medizinische Recovery-Angebote mit Olympiateilnehmerin, WM-Finalistin und mehrfacher EM-Medaillengewinnerin Olga Liakhova. Termine nach Vereinbarung.",
+      "Outdoor Personal Training und Lauftraining in Köniz für Einsteiger, Läufer und aktive Menschen. Trainieren Sie mit Olga Liakhova, Olympiateilnehmerin und mehrfacher EM-Medaillengewinnerin. Wellnessmassage gibt es in Liebefeld.",
     book: "Willkommensangebote ansehen",
     offerBadge: "WILLKOMMENSANGEBOT · NUR FÜR NEUKUNDEN",
     offerHeading: "Ihr erster Termin zum Kennenlernpreis",
@@ -69,11 +69,11 @@ const translations = {
     navFaq: "FAQ",
     navAbout: "About",
     athleteNav: "Athlete & Partnerships",
-    heroTag: "Wellnessmassage · Personal Training · Recovery",
-    heroTitle: "MASSAGE &<br><span>TRAINING</span>",
+    heroTag: "Personal training · Running · Wellness",
+    heroTitle: "RUNNING &<br><span>PERSONAL TRAINING</span>",
     heroCredentials: "Olympian · World Championships Finalist · 2× European Games Gold Medalist · Multiple European Championships Medalist",
     heroText:
-      "Wellness massage in 3097 Liebefeld near Bern from CHF 50. Personal training in Köniz and non-medical recovery sessions with Olympian, World Championships finalist and multiple European Championships medalist Olga Liakhova. By appointment only.",
+      "Outdoor personal and running training in Köniz for beginners, runners and active people. Train with Olga Liakhova, an Olympian and multiple European Championships medalist. Wellness massage is available in Liebefeld.",
     book: "See new-client offers",
     offerBadge: "NEW-CLIENT INTRODUCTORY OFFERS",
     offerHeading: "Your first session at an introductory price",
@@ -130,11 +130,11 @@ const translations = {
     navFaq: "Питання",
     navAbout: "Про мене",
     athleteNav: "Спортсменка та партнерства",
-    heroTag: "Wintecare T~PLUS · Велнес · Тренування",
-    heroTitle: "MASSAGE &<br><span>TRAINING</span>",
+    heroTag: "Персональні тренування · Біг · Wellness",
+    heroTitle: "RUNNING &<br><span>PERSONAL TRAINING</span>",
     heroCredentials: "Учасниця Олімпійських ігор · Фіналістка чемпіонатів світу · Дворазова чемпіонка Європейських ігор · Багаторазова призерка чемпіонатів Європи",
     heroText:
-      "Велнес-масаж у 3097 Liebefeld біля Берна від CHF 50. Персональні тренування у Köniz та немедичне відновлення з учасницею Олімпійських ігор, фіналісткою чемпіонатів світу та багаторазовою призеркою чемпіонатів Європи Ольгою Ляховою. За попереднім записом.",
+      "Персональні та бігові тренування просто неба у Köniz — для початківців, бігунів і активних людей. Тренуйтеся з Ольгою Ляховою, учасницею Олімпійських ігор і багаторазовою призеркою чемпіонатів Європи. Велнес-масаж — у Liebefeld.",
     book: "Пропозиції для нових клієнтів",
     offerBadge: "ПРОПОЗИЦІЇ ДЛЯ НОВИХ КЛІЄНТІВ",
     offerHeading: "Перше заняття за ознайомчою ціною",
@@ -185,6 +185,14 @@ const translations = {
     winLink: "Офіційний сайт Wintecare T~PLUS ↗",
   },
 };
+
+function detailHref(service, index, lang) {
+  const suffix = lang === "de" ? "" : `-${lang}`;
+  if (index === 2) return `personal-training-koeniz${suffix}.html`;
+  if (index === 3) return `gruppentraining-koeniz${suffix}.html`;
+  if (index === 4) return `personal-training-koeniz${suffix}.html#training-plans`;
+  return service[5];
+}
 
 const services = {
   de: [
@@ -467,7 +475,7 @@ function setLanguage(language, updateUrl = true) {
       <div class="n">${String(index + 1).padStart(2, "0")}</div>
       <h3>${service[0]}</h3><p>${service[1]}</p>
       <div class="price"><span>${t.price}</span><b>${service[2]}</b></div>
-      <div class="card-actions"><a class="btn gold" href="${service[4]}" target="_blank" rel="noopener">${service[3]}</a>${service[5] ? `<a class="text-link" href="${service[5]}">${t.learnMore} →</a>` : ""}</div>
+      <div class="card-actions"><a class="btn gold" href="${service[4]}" target="_blank" rel="noopener">${service[3]}</a>${service[5] ? `<a class="text-link" href="${detailHref(service, index, lang)}">${t.learnMore} →</a>` : ""}</div>
     </article>`,
     )
     .join("");
