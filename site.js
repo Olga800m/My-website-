@@ -182,7 +182,7 @@ const services = {
     [
       "Wellness- & Regenerationsmassage",
       "Individuell abgestimmte Wellnessmassage für Entspannung und eine bewusste Auszeit vom Alltag. Standort: 3097 Liebefeld bei Bern. Die genaue Adresse wird persönlich mitgeteilt.",
-      "30 Min · CHF 50<br>60 Min · CHF 95<br>90 Min · CHF 140",
+      "30 Min CHF 50 / 10er CHF 450<br>60 Min CHF 95 / 10er CHF 900<br>90 Min CHF 140 / 10er CHF 1’300",
       "Dauer wählen & buchen",
       "https://cal.com/olga-liakhova-nvavii/wellnessmassage-koeniz",
       "massage-koeniz.html",
@@ -190,7 +190,7 @@ const services = {
     [
       "Wintecare T~PLUS Recovery",
       "Individuell abgestimmte, nicht-medizinische Recovery- und Wellness-Anwendung.",
-      "30 Min · CHF 65<br>60 Min · CHF 115<br>Erster Termin: 30 Min · CHF 55",
+      "30 Min CHF 65 / 10er CHF 600<br>60 Min CHF 115 / 10er CHF 1’000<br>90 Min CHF 165 / 10er CHF 1’500",
       "T~PLUS buchen",
       "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
       "wintecare-tplus-koeniz.html",
@@ -205,7 +205,7 @@ const services = {
     ],
     [
       "Gruppentraining in Köniz",
-      "Funktionelle Kraftübungen, Lauftechnik, Mobilität und Ausdauer mit unterschiedlichen Schwierigkeitsstufen. Maximal 4 Plätze. Die Einheit findet ab zwei Anmeldungen statt und wird spätestens 12 Stunden vor Beginn bestätigt.",
+      "Funktionelle Kraftübungen, Lauftechnik, Mobilität und Ausdauer mit unterschiedlichen Schwierigkeitsstufen. Offene Gruppe ab 5 Anmeldungen. Terminbestätigung nach Vereinbarung.",
       "60 Min · CHF 20 pro Person; ab 5 Personen; 10er-Abo CHF 180",
       "Platz anfragen",
       "https://cal.com/olga-liakhova-nvavii/gruppentraining-koeniz",
@@ -216,15 +216,15 @@ const services = {
     [
       "Wellness & Recovery Massage",
       "An individually adapted wellness massage for relaxation. Location: 3097 Liebefeld near Bern. The exact address is shared personally.",
-      "30 min · CHF 50<br>60 min · CHF 95<br>90 min · CHF 140",
+      "30 min CHF 50 / 10-pack CHF 450<br>60 min CHF 95 / 10-pack CHF 900<br>90 min CHF 140 / 10-pack CHF 1,300",
       "Choose & book",
       "https://cal.com/olga-liakhova-nvavii/wellnessmassage-koeniz",
       "massage-koeniz.html",
     ],
     [
       "Wintecare T~PLUS Recovery",
-      "An individually tailored, non-medical recovery and wellness session.",
-      "30 min · CHF 65<br>60 min · CHF 115<br>First visit: 30 min · CHF 55",
+      "A combined manual wellness massage and Wintecare T~PLUS session for relaxation and non-medical recovery.",
+      "30 min CHF 65 / 10-pack CHF 600<br>60 min CHF 115 / 10-pack CHF 1,000<br>90 min CHF 165 / 10-pack CHF 1,500",
       "Book T~PLUS",
       "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
       "wintecare-tplus-koeniz.html",
@@ -239,7 +239,7 @@ const services = {
     ],
     [
       "Group Training in Köniz",
-      "Functional strength, running technique, mobility and endurance with exercises adapted to different fitness levels. Maximum 4 places. Sessions run with at least two participants and are confirmed no later than 12 hours before the start.",
+      "Functional strength, running technique, mobility and endurance with exercises adapted to different fitness levels. Open groups start with at least 5 participants. Sessions are confirmed by arrangement.",
       "60 min · CHF 20 per person; min. 5 people; 10-session pass CHF 180",
       "Request a place",
       "https://cal.com/olga-liakhova-nvavii/gruppentraining-koeniz",
@@ -250,15 +250,15 @@ const services = {
     [
       "Велнес- і відновлювальний масаж",
       "Індивідуально підібраний велнес-масаж для розслаблення та повноцінної паузи від повсякденних справ.",
-      "30 хв · CHF 50<br>60 хв · CHF 95<br>90 хв · CHF 140",
+      "30 хв CHF 50 / 10 сеансів CHF 450<br>60 хв CHF 95 / 10 сеансів CHF 900<br>90 хв CHF 140 / 10 сеансів CHF 1 300",
       "Обрати й записатися",
       "https://cal.com/olga-liakhova-nvavii/wellnessmassage-koeniz",
       "massage-koeniz.html",
     ],
     [
       "Wintecare T~PLUS Recovery",
-      "Індивідуально підібрана немедична процедура для відпочинку та відновлення.",
-      "30 хв · CHF 65<br>60 хв · CHF 115<br>Перший візит: 30 хв · CHF 55",
+      "Комбінований ручний велнес-масаж із Wintecare T~PLUS для відпочинку та немедичного відновлення.",
+      "30 хв CHF 65 / 10 сеансів CHF 600<br>60 хв CHF 115 / 10 сеансів CHF 1 000<br>90 хв CHF 165 / 10 сеансів CHF 1 500",
       "Запис на T~PLUS",
       "https://cal.com/olga-liakhova-nvavii/wintecare-tplus-recovery-koeniz",
       "wintecare-tplus-koeniz.html",
@@ -273,8 +273,8 @@ const services = {
     ],
     [
       "Групові тренування в Köniz",
-      "Функціональні силові вправи, техніка бігу, мобільність і витривалість з адаптацією до різних рівнів підготовки. Максимум 4 місця. Заняття проводиться за наявності щонайменше двох учасників і підтверджується не пізніше ніж за 12 годин до початку.",
-      "60 хв · CHF 20 з особи",
+      "Функціональні силові вправи, техніка бігу, мобільність і витривалість з адаптацією до різних рівнів підготовки. Відкрита група від 5 учасників. Час підтверджується за домовленістю.",
+      "60 хв · CHF 20 з особи; від 5 учасників; 10 занять CHF 180",
       "Забронювати місце",
       "https://cal.com/olga-liakhova-nvavii/gruppentraining-koeniz",
       "gruppentraining-koeniz.html",
@@ -290,7 +290,7 @@ const faqs = {
     ],
     [
       "Muss ich für das Gruppentraining bereits fit sein?",
-      "Nein. Übungen und Intensität lassen sich an unterschiedliche Fitnesslevel anpassen. Die Gruppe ist auf maximal 4 Personen begrenzt.",
+      "Nein. Übungen und Intensität lassen sich an unterschiedliche Fitnesslevel anpassen. Offene Gruppen finden ab 5 Teilnehmenden statt.",
     ],
     [
       "Bieten Sie Lauftraining für Einsteiger an?",
@@ -320,7 +320,7 @@ const faqs = {
     ],
     [
       "Do I need to be fit for group training?",
-      "No. Exercises and intensity can be adapted to different fitness levels. The group is limited to a maximum of 4 people.",
+      "No. Exercises and intensity can be adapted to different fitness levels. Open groups start with 5 participants.",
     ],
     [
       "Do you offer running coaching for beginners?",
