@@ -475,7 +475,7 @@ function setLanguage(language, updateUrl = true) {
       <div class="n">${String(index + 1).padStart(2, "0")}</div>
       <h3>${service[0]}</h3><p>${service[1]}</p>
       <div class="price"><span>${t.price}</span><b>${service[2]}</b></div>
-      <div class="card-actions"><a class="btn gold" href="${service[4]}" target="_blank" rel="noopener">${service[3]}</a>${service[5] ? `<a class="text-link" href="${detailHref(service, index, lang)}">${t.learnMore} →</a>` : ""}</div>
+      <div class="card-actions"><a class="btn gold" href="${index === 4 ? detailHref(service, index, lang) : service[4]}" target="_blank" rel="noopener">${service[3]}</a>${service[5] ? `<a class="text-link" href="${detailHref(service, index, lang)}">${t.learnMore} →</a>` : ""}</div>
     </article>`,
     )
     .join("");
