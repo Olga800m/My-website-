@@ -232,7 +232,7 @@ const services = {
     [
       "Personal Training & Running Coaching",
       "Personal training for strength, endurance, running technique, mobility and individual goals in Köniz.",
-      "60 min · CHF 100 · Introductory price",
+      "60 min · CHF 100 · Standard price; first personal training CHF 60; 10-session pass CHF 850",
       "Book training",
       "https://cal.com/olga-liakhova-nvavii/personal-training-koeniz",
       "personal-training-koeniz.html",
