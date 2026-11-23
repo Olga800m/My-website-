@@ -198,7 +198,7 @@ const services = {
     [
       "Personal Training & Lauftraining",
       "Persönliches Training für Kraft, Ausdauer, Lauftechnik, Mobilität und individuelle Ziele in Köniz.",
-      "60 Min · CHF 100 · regulärer Preis; Duo: CHF 55 pro Person",
+      "60 Min · CHF 100; erstes Training CHF 60; 10er-Abo CHF 850; Duo CHF 55 p. P.; 3 Pers. CHF 35 p. P.; 4 Pers. CHF 25 p. P.",
       "Training buchen",
       "https://cal.com/olga-liakhova-nvavii/personal-training-koeniz",
       "personal-training-koeniz.html",
@@ -206,7 +206,7 @@ const services = {
     [
       "Gruppentraining in Köniz",
       "Funktionelle Kraftübungen, Lauftechnik, Mobilität und Ausdauer mit unterschiedlichen Schwierigkeitsstufen. Maximal 4 Plätze. Die Einheit findet ab zwei Anmeldungen statt und wird spätestens 12 Stunden vor Beginn bestätigt.",
-      "60 Min · CHF 20 pro Person",
+      "60 Min · CHF 20 pro Person; ab 5 Personen; 10er-Abo CHF 180",
       "Platz anfragen",
       "https://cal.com/olga-liakhova-nvavii/gruppentraining-koeniz",
       "gruppentraining-koeniz.html",
@@ -240,7 +240,7 @@ const services = {
     [
       "Group Training in Köniz",
       "Functional strength, running technique, mobility and endurance with exercises adapted to different fitness levels. Maximum 4 places. Sessions run with at least two participants and are confirmed no later than 12 hours before the start.",
-      "60 min · CHF 20 per person",
+      "60 min · CHF 20 per person; min. 5 people; 10-session pass CHF 180",
       "Request a place",
       "https://cal.com/olga-liakhova-nvavii/gruppentraining-koeniz",
       "gruppentraining-koeniz.html",
@@ -266,7 +266,7 @@ const services = {
     [
       "Персональні та бігові тренування",
       "Персональні заняття для сили, витривалості, техніки бігу, мобільності й індивідуальних цілей.",
-      "60 хв · CHF 100 · Ознайомча ціна",
+      "60 хв · CHF 100; перше заняття CHF 60; абонемент 10 занять CHF 850; удвох CHF 55/особа; 3 особи CHF 35; 4 особи CHF 25",
       "Запис на тренування",
       "https://cal.com/olga-liakhova-nvavii/personal-training-koeniz",
       "personal-training-koeniz.html",
