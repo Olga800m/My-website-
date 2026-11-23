@@ -2,7 +2,7 @@ const translations = {
   de: {
     title: "Wellnessmassage & Personal Training in Köniz | Olga Liakhova",
     description:
-      "Wellnessmassage in 3097 Liebefeld bei Bern ab CHF 50. Personal Training und Lauftraining in Köniz. Kennenlernangebote für Neukunden ab CHF 60.",
+      "Wellnessmassage in 3097 Liebefeld bei Bern ab CHF 50. Personal Training und Lauftraining in Köniz. Kennenlernangebote für Wellness und Recovery.",
     navServices: "Angebote",
     navFaq: "FAQ",
     navAbout: "Über mich",
@@ -15,7 +15,7 @@ const translations = {
     book: "Willkommensangebote ansehen",
     offerBadge: "WILLKOMMENSANGEBOT · NUR FÜR NEUKUNDEN",
     offerHeading: "Ihr erster Termin zum Kennenlernpreis",
-    offerTraining: "Personal Training · 60 Minuten: CHF 60 statt CHF 100",
+    offerTraining: "",
     offerMassage: "Wellnessmassage · 60 Minuten: CHF 70 statt CHF 95",
     offerRecovery: "Wintecare T~PLUS Recovery · 60 Minuten: CHF 80 statt CHF 115",
     offerTerms: "Einmal pro Person und Dienstleistung beim ersten Termin. Bitte bei der Buchung «Neukundenangebot» angeben. Der Preis wird vor dem Termin bestätigt.",
@@ -61,7 +61,7 @@ const translations = {
   en: {
     title: "Wellness Massage & Personal Training near Bern | Olga Liakhova",
     description:
-      "Wellness massage in Liebefeld near Bern from CHF 50; personal and running training outdoors in Köniz. New-client introductory offers from CHF 60.",
+      "Wellness massage in Liebefeld near Bern from CHF 50; personal and running training outdoors in Köniz. Introductory offers for wellness and recovery.",
     navServices: "Services",
     navFaq: "FAQ",
     navAbout: "About",
@@ -74,7 +74,7 @@ const translations = {
     book: "See new-client offers",
     offerBadge: "NEW-CLIENT INTRODUCTORY OFFERS",
     offerHeading: "Your first session at an introductory price",
-    offerTraining: "Personal training · 60 min: CHF 60 instead of CHF 100",
+    offerTraining: "",
     offerMassage: "Wellness massage · 60 min: CHF 70 instead of CHF 95",
     offerRecovery: "Wintecare T~PLUS Recovery · 60 min: CHF 80 instead of CHF 115",
     offerTerms: "Once per person, per service, for the first appointment. Mention “new-client offer” when booking; the price will be confirmed before the session.",
@@ -119,7 +119,7 @@ const translations = {
   uk: {
     title: "Велнес-масаж і персональні тренування біля Берна | Olga Liakhova",
     description:
-      "Велнес-масаж у 3097 Liebefeld біля Bern від CHF 50; персональні та бігові тренування просто неба у Köniz. Пропозиції для нових клієнтів від CHF 60.",
+      "Велнес-масаж у 3097 Liebefeld біля Bern від CHF 50; персональні та бігові тренування просто неба у Köniz. Ознайомчі пропозиції для велнесу та відновлення.",
     navServices: "Послуги",
     navFaq: "Питання",
     navAbout: "Про мене",
@@ -132,7 +132,7 @@ const translations = {
     book: "Пропозиції для нових клієнтів",
     offerBadge: "ПРОПОЗИЦІЇ ДЛЯ НОВИХ КЛІЄНТІВ",
     offerHeading: "Перше заняття за ознайомчою ціною",
-    offerTraining: "Персональне тренування · 60 хв: CHF 60 замість CHF 100",
+    offerTraining: "",
     offerMassage: "Велнес-масаж · 60 хв: CHF 70 замість CHF 95",
     offerRecovery: "Wintecare T~PLUS Recovery · 60 хв: CHF 80 замість CHF 115",
     offerTerms: "Один раз для кожної послуги на першому візиті. Під час запису вкажіть «пропозиція для нового клієнта»; ціну підтвердимо до процедури.",
@@ -198,7 +198,7 @@ const services = {
     [
       "Personal Training & Lauftraining",
       "Persönliches Training für Kraft, Ausdauer, Lauftechnik, Mobilität und individuelle Ziele in Köniz.",
-      "60 Min · CHF 100 · Einführungspreis",
+      "60 Min · CHF 100 · regulärer Preis; Duo: CHF 55 pro Person",
       "Training buchen",
       "https://cal.com/olga-liakhova-nvavii/personal-training-koeniz",
       "personal-training-koeniz.html",
